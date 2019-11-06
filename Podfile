@@ -7,5 +7,5 @@ target 'testIoTHubFramework' do
   use_frameworks!
 
   pod 'AzureIoTHubClient'
-
+  pod 'AzureMacroUtils'
 end
