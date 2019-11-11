@@ -1,28 +1,32 @@
 PODS:
-  - AzureIoTHubClient (1.3.6):
-    - AzureIoTuAmqp (= 1.2.12)
-    - AzureIoTuMqtt (= 1.1.12)
-    - AzureIoTUtility (= 1.1.12)
+  - AzureIoTHubClient (1.3.6-public-preview-c):
+    - AzureIoTuAmqp (= 1.2.12b)
+    - AzureIoTuMqtt (= 1.1.12b)
+    - AzureIoTUtility (= 1.1.12b)
     - AzureMacroUtils (= 1.1.0)
-    - AzureuMockC (= 1.1.19c)
-  - AzureIoTuAmqp (1.2.12):
-    - AzureIoTUtility (= 1.1.12)
+    - AzureuMockC (= 1.1.19d)
+  - AzureIoTuAmqp (1.2.12b):
+    - AzureIoTUtility (= 1.1.12b)
     - AzureMacroUtils (= 1.1.0)
-    - AzureuMockC (= 1.1.19c)
-  - AzureIoTuMqtt (1.1.12):
-    - AzureIoTUtility (= 1.1.12)
+    - AzureuMockC (= 1.1.19d)
+  - AzureIoTuMqtt (1.1.12b):
+    - AzureIoTUtility (= 1.1.12b)
     - AzureMacroUtils (= 1.1.0)
-    - AzureuMockC (= 1.1.19c)
-  - AzureIoTUtility (1.1.12):
+    - AzureuMockC (= 1.1.19d)
+  - AzureIoTUtility (1.1.12b):
     - AzureMacroUtils (= 1.1.0)
-    - AzureuMockC (= 1.1.19c)
+    - AzureuMockC (= 1.1.19d)
   - AzureMacroUtils (1.1.0)
-  - AzureuMockC (1.1.19c):
+  - AzureuMockC (1.1.19d):
     - AzureMacroUtils (= 1.1.0)
 
 DEPENDENCIES:
-  - AzureIoTHubClient
+  - AzureIoTHubClient (= 1.3.6-public-preview-c)
+  - AzureIoTuAmqp (= 1.2.12b)
+  - AzureIoTuMqtt (= 1.1.12b)
+  - AzureIoTUtility (= 1.1.12b)
   - AzureMacroUtils
+  - AzureuMockC
 
 SPEC REPOS:
   trunk:
@@ -34,13 +38,13 @@ SPEC REPOS:
     - AzureuMockC
 
 SPEC CHECKSUMS:
-  AzureIoTHubClient: 4459367015fbdbfa8560cb5342efa9140f525450
-  AzureIoTuAmqp: d2884cb93db23f5a027c23ab2efb79918ea24c01
-  AzureIoTuMqtt: 9e0fb1d420dbbecea911abec1d315fe5738592bf
-  AzureIoTUtility: 32e0138057ef94e81caa54c21632f3b9541e27dd
+  AzureIoTHubClient: 762645fc1b44689cd02efacb0079169e0e3a7b8f
+  AzureIoTuAmqp: bdf1e25f06e2ad9ad0511b22f4fd794847e9410f
+  AzureIoTuMqtt: 7876edb4f013f14eabdf05d3b6947c9eb46ab7fa
+  AzureIoTUtility: 067b4e1d5fc39fff343a275a33ff5dd933613e3a
   AzureMacroUtils: 372ce248be455a1f11fe0592bff880803b1ad822
-  AzureuMockC: 11060fb0711daf8a5a270c1c2318bd200e5f96ef
+  AzureuMockC: d17f8f7182f76f213a5aaede7f3bfc4a82263d8a
 
-PODFILE CHECKSUM: b5db00514b1e51eeb4fde433e30cf4d45939f86a
+PODFILE CHECKSUM: 1db46ca71c1ce197a94224409348293aff10899d
 
 COCOAPODS: 1.8.4
