@@ -6,9 +6,9 @@ target 'testIoTHubFramework' do
 
   use_frameworks!
 
-  pod 'AzureIoTUtility', '=1.1.12b'
-  pod 'AzureIoTuAmqp', '=1.2.12b'
-  pod 'AzureIoTuMqtt', '=1.1.12b'
-  pod 'AzureIoTHubClient', '=1.3.6-public-preview-c'
+  pod 'AzureIoTUtility', '=1.1.12c'
+  pod 'AzureIoTuAmqp', '=1.2.12c'
+  pod 'AzureIoTuMqtt', '=1.1.12c'
+  pod 'AzureIoTHubClient', '=1.3.6-nightly'
   
 end

@@ -6,8 +6,6 @@
 //  Copyright © 2019 Xamarin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 //! Project version number for testIoTHubFramework.
 FOUNDATION_EXPORT double testIoTHubFrameworkVersionNumber;
 
@@ -15,5 +13,12 @@ FOUNDATION_EXPORT double testIoTHubFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char testIoTHubFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <testIoTHubFramework/PublicHeader.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AzureIoTHubClient/iothub_client.h>
 
+@interface testIoTHubFrameworkObjC : NSObject
 
+-(NSString*)returnValueBasedOnState:(DEVICE_TWIN_UPDATE_STATE)result;
+
+@end

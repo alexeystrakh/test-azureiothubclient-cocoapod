@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53CDCCCC237F4F21008D476F /* testIoTHubFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDCCCA237F4F21008D476F /* testIoTHubFramework.m */; };
 		53E980B6237229DB0037E8BB /* testIoTHubFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E980B4237229DB0037E8BB /* testIoTHubFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B11919AB71234F8AB5B907BB /* Pods_testIoTHubFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8FF5AC68AB82670F9D7FFB /* Pods_testIoTHubFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53CDCCCA237F4F21008D476F /* testIoTHubFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testIoTHubFramework.m; sourceTree = "<group>"; };
 		53E980B1237229DB0037E8BB /* testIoTHubFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testIoTHubFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E980B4237229DB0037E8BB /* testIoTHubFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testIoTHubFramework.h; sourceTree = "<group>"; };
 		53E980B5237229DB0037E8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				53E980B4237229DB0037E8BB /* testIoTHubFramework.h */,
 				53E980B5237229DB0037E8BB /* Info.plist */,
+				53CDCCCA237F4F21008D476F /* testIoTHubFramework.m */,
 			);
 			path = testIoTHubFramework;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CDCCCC237F4F21008D476F /* testIoTHubFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
